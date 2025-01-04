@@ -18,14 +18,14 @@ Currently supported servers are:
    - Example: `https://flixhq.to/ajax/episode/list/116161`
    - This will return a list of available servers with their IDs
    
-   ![servers](movie-server-ids.png)
+   ![servers](images/movie-server-ids.png)
 
 3. **Get Embed URL**
    - Make a request to: `https://flixhq.to/ajax/episode/sources/{server_id}`
    - Example: `https://flixhq.to/ajax/episode/sources/4835173`
    - The `link` field in the response contains the embed URL
    
-   ![sources](movie-sources.png)
+   ![sources](images/movie-sources.png)
    
    - Note: Embed URLs are dynamic and will change over time
 
@@ -38,31 +38,31 @@ Currently supported servers are:
    - Make a request to: `https://flixhq.to/ajax/season/list/{show_id}`
    - Example: `https://flixhq.to/ajax/season/list/72172`
    
-   ![seasons](seasons.png)
+   ![seasons](images/seasons.png)
    
    - Season IDs can be found in the HTML elements of the response
    
-   ![seasons](season-ids.png)
+   ![seasons](images/season-ids.png)
 
 3. **Get Episode List**
    - Make a request to: `https://flixhq.to/ajax/season/episodes/{season_id}`
    - Example: `https://flixhq.to/ajax/season/episodes/63706`
    
-   ![episodes](episodes.png)
+   ![episodes](images/episodes.png)
    
    - Episode IDs can be found in the HTML elements of the response
    
-   ![episodes](episode-ids.png)
+   ![episodes](images/episode-ids.png)
 
 4. **Get Server List**
    - Make a request to: `https://flixhq.to/ajax/episode/servers/{episode_id}`
    - Example: `https://flixhq.to/ajax/episode/servers/1197526`
    
-   ![servers](tv-server-ids.png)
+   ![servers](images/tv-server-ids.png)
 
 5. **Get Embed URL**
    - Make a request to: `https://flixhq.to/ajax/episode/sources/{server_id}`
-   ![sources](tv-sources.png)
+   ![sources](images/tv-sources.png)
    - The `link` field in the response contains the embed URL
    - Note: Embed URLs are dynamic and will change over time
 
