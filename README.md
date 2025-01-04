@@ -18,7 +18,7 @@ Currently supported servers are:
    - Example: `https://flixhq.to/ajax/episode/list/116161`
    - This will return a list of available servers with their IDs
    
-   ![servers](images/movie-server-ids.png)
+   ![servers](images/tv-server-ids.png)
 
 3. **Get Embed URL**
    - Make a request to: `https://flixhq.to/ajax/episode/sources/{server_id}`
